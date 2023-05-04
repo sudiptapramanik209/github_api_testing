@@ -1,0 +1,763 @@
+{
+	"id": "95d5deca-9849-4c36-bdd0-ca62ae0d3538",
+	"name": "github_api_star_cature",
+	"timestamp": "2023-05-04T18:03:11.031Z",
+	"collection_id": "27092730-4f513cee-6aea-40ce-8e1f-62d8991dde4c",
+	"folder_id": 0,
+	"environment_id": "27092730-e8a04319-effb-4f97-86c4-d35d418966b4",
+	"totalPass": 57,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-04T18:02:15.515Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "5cd479e3-799c-420b-84f3-d6e52746ff7b",
+			"name": "CREATE A REPOSITORY FOR A AUTHENTICATED USER",
+			"url": "https://api.github.com/user/repos",
+			"time": 1638,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"CREATE A REPOSITORY FOR A AUTHENTICATED USER": true
+			},
+			"testPassFailCounts": {
+				"CREATE A REPOSITORY FOR A AUTHENTICATED USER": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1665,
+				1595,
+				1638
+			],
+			"allTests": [
+				{
+					"CREATE A REPOSITORY FOR A AUTHENTICATED USER": true
+				},
+				{
+					"CREATE A REPOSITORY FOR A AUTHENTICATED USER": true
+				},
+				{
+					"CREATE A REPOSITORY FOR A AUTHENTICATED USER": true
+				}
+			]
+		},
+		{
+			"id": "8174bef0-e25d-4d91-88df-6b6e3f29bebe",
+			"name": "UPDATE A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo",
+			"time": 1135,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				646,
+				604,
+				1135
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5e9a6af7-07d1-450c-948e-01caa81d519c",
+			"name": "GET A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo",
+			"time": 396,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				377,
+				399,
+				396
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ccceb2df-22a5-4ada-a80f-59936f0e8f7e",
+			"name": "CREATE  FILE CONTENT",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/contents/java.js",
+			"time": 604,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				529,
+				720,
+				604
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "5ffedba8-b1dc-4370-8fa1-336f35191a3f",
+			"name": "CREATE A FORK",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/forks",
+			"time": 1080,
+			"responseCode": {
+				"code": 202,
+				"name": "Accepted"
+			},
+			"tests": {
+				"CREATE A FORK status code": true
+			},
+			"testPassFailCounts": {
+				"CREATE A FORK status code": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				1041,
+				1164,
+				1080
+			],
+			"allTests": [
+				{
+					"CREATE A FORK status code": true
+				},
+				{
+					"CREATE A FORK status code": true
+				},
+				{
+					"CREATE A FORK status code": true
+				}
+			]
+		},
+		{
+			"id": "5fd482cc-8817-4c3f-b32e-83fcd6fbdc4b",
+			"name": "LIST FORKS",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/forks",
+			"time": 393,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"CREATE A FORK Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"CREATE A FORK Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				457,
+				403,
+				393
+			],
+			"allTests": [
+				{
+					"CREATE A FORK Status code is 200": true
+				},
+				{
+					"CREATE A FORK Status code is 200": true
+				},
+				{
+					"CREATE A FORK Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4e8b4912-9cee-463c-86ae-9fe96b1513ec",
+			"name": "LIST REPOSITORIES FOR A USER",
+			"url": "https://api.github.com/users/sudiptapramanik209/repos",
+			"time": 533,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"LIST REPOSITORIES FOR A USER Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"LIST REPOSITORIES FOR A USER Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				487,
+				503,
+				533
+			],
+			"allTests": [
+				{
+					"LIST REPOSITORIES FOR A USER Status code is 200": true
+				},
+				{
+					"LIST REPOSITORIES FOR A USER Status code is 200": true
+				},
+				{
+					"LIST REPOSITORIES FOR A USER Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bd3a587b-86f0-40a2-b5de-67422ea160e0",
+			"name": "LIST REPOSITORY LANGUAGE",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/languages",
+			"time": 412,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				351,
+				349,
+				412
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ec6221d4-68c1-481a-acb4-f96f42c241e8",
+			"name": "LIST PUBLIC REPOSITORIES",
+			"url": "https://api.github.com/repositories",
+			"time": 519,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				506,
+				502,
+				519
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "80ca9856-88ea-49ab-b340-f4f5af253ece",
+			"name": "LIST REPOSITORY TAGS",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/tags",
+			"time": 350,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				353,
+				347,
+				350
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6ca2b379-646f-4ab9-8c40-5f1ae08c2457",
+			"name": "CREATE AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/autolinks",
+			"time": 378,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				376,
+				376,
+				378
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				},
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "49f8fa25-2caa-4770-a453-4c019ca958f7",
+			"name": "GET AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/autolinks/1649371",
+			"time": 352,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				346,
+				351,
+				352
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0fcbf826-2e35-49ca-9bd9-812849a0a765",
+			"name": "GET A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo",
+			"time": 389,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				379,
+				371,
+				389
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9037356b-5db4-4bbc-9c23-fa0c03afa250",
+			"name": "REPLACE ALL REPOSITORY TOPICS",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/topics",
+			"time": 792,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				755,
+				758,
+				792
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "da8d0d57-337f-455c-9093-1f9c1de2c311",
+			"name": "GET ALL REPOSITORY TOPICS",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/topics",
+			"time": 419,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				425,
+				405,
+				419
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "147ee63c-f706-477c-b126-5363df25d6fb",
+			"name": "DELETE FORKS",
+			"url": "https://api.github.com/repos/sudipta1234-pramanik/Forked_org",
+			"time": 579,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				600,
+				600,
+				579
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "f9ee30ea-a397-4a93-92cd-59de8434ce06",
+			"name": "DELETE A FILE",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/contents/java.js",
+			"time": 548,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				735,
+				502,
+				548
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "899e27ad-ff8e-48ae-9bc1-1e4ecf32b8a2",
+			"name": "DELETE FROM AN AUTOLINK REFERENCE FOR A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo/autolinks/1649371",
+			"time": 360,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				377,
+				357,
+				360
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "80b6e8fa-56ea-4dfd-9130-a7f70565ec75",
+			"name": "DELETE A REPOSITORY",
+			"url": "https://api.github.com/repos/sudiptapramanik209/thard_repo",
+			"time": 739,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				591,
+				589,
+				739
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				},
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 33507,
+	"collection": {
+		"requests": [
+			{
+				"id": "5cd479e3-799c-420b-84f3-d6e52746ff7b",
+				"method": "POST"
+			},
+			{
+				"id": "8174bef0-e25d-4d91-88df-6b6e3f29bebe",
+				"method": "PATCH"
+			},
+			{
+				"id": "5e9a6af7-07d1-450c-948e-01caa81d519c",
+				"method": "GET"
+			},
+			{
+				"id": "ccceb2df-22a5-4ada-a80f-59936f0e8f7e",
+				"method": "PUT"
+			},
+			{
+				"id": "5ffedba8-b1dc-4370-8fa1-336f35191a3f",
+				"method": "POST"
+			},
+			{
+				"id": "5fd482cc-8817-4c3f-b32e-83fcd6fbdc4b",
+				"method": "GET"
+			},
+			{
+				"id": "4e8b4912-9cee-463c-86ae-9fe96b1513ec",
+				"method": "GET"
+			},
+			{
+				"id": "bd3a587b-86f0-40a2-b5de-67422ea160e0",
+				"method": "GET"
+			},
+			{
+				"id": "ec6221d4-68c1-481a-acb4-f96f42c241e8",
+				"method": "GET"
+			},
+			{
+				"id": "80ca9856-88ea-49ab-b340-f4f5af253ece",
+				"method": "GET"
+			},
+			{
+				"id": "6ca2b379-646f-4ab9-8c40-5f1ae08c2457",
+				"method": "POST"
+			},
+			{
+				"id": "49f8fa25-2caa-4770-a453-4c019ca958f7",
+				"method": "GET"
+			},
+			{
+				"id": "0fcbf826-2e35-49ca-9bd9-812849a0a765",
+				"method": "GET"
+			},
+			{
+				"id": "9037356b-5db4-4bbc-9c23-fa0c03afa250",
+				"method": "PUT"
+			},
+			{
+				"id": "da8d0d57-337f-455c-9093-1f9c1de2c311",
+				"method": "GET"
+			},
+			{
+				"id": "147ee63c-f706-477c-b126-5363df25d6fb",
+				"method": "DELETE"
+			},
+			{
+				"id": "f9ee30ea-a397-4a93-92cd-59de8434ce06",
+				"method": "DELETE"
+			},
+			{
+				"id": "899e27ad-ff8e-48ae-9bc1-1e4ecf32b8a2",
+				"method": "DELETE"
+			},
+			{
+				"id": "80b6e8fa-56ea-4dfd-9130-a7f70565ec75",
+				"method": "DELETE"
+			}
+		]
+	}
+}
