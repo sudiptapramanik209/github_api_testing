@@ -1,4 +1,4 @@
-const token="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";
+const token="";
 const baseURL="https://api.github.com";
 const owner="sudiptapramanik209";
 
