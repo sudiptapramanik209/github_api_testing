@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Reports</title>
+
+    <style>
+        .div{
+            border: 1px solid rgb(214, 19, 19);
+            /* width: auto;  */
+            height: 680px; 
+            background-color: #00baf2; 
+            margin: none;
+            padding: 0%;
+        }
+        #hline{
+             font-size: 62px; 
+             color: black; 
+             font-family: Arial, Helvetica, sans-serif; 
+             font-weight: bold; 
+             width: 41%; 
+             margin: auto;
+             text-align: center;
+             margin-top: 18px; 
+             margin-bottom: 40px; 
+             border-bottom: 3px solid white;
+        }
+#row{
+            display: flex;  
+        }
+        .sdiv{ 
+            border: 3px solid white;
+            border-radius: 25px;
+            width: 400px; 
+            margin: auto; 
+            padding: auto;
+        }
+        img{
+            width: 80%; 
+            height: 300px; 
+            margin-top: 50px;
+            margin-left: 10%; 
+        }
+        #link{
+            color: black; 
+            font-family: Arial, Helvetica, sans-serif; 
+            font-size: 30px;  
+             font-weight: bold; 
+             text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="div">
+            <p id="hline" >
+                GitHub API Reports
+            </p>
+
+        <div id="row" >
+            <div class="sdiv fdiv" >
+                <a href="./cypress/github_api_test/index.html">
+                    <img 
+                        src="https://asset.brandfetch.io/idIq_kF0rb/idv3zwmSiY.jpeg?updated=1667565306852" 
+                    alt="">
+                    <p id="link">
+                        Cypress Report
+                    </p>
+                </a>
+            </div>
+<div class="sdiv">
+                <a 
+                href="./GitHub API By Postman/index.html">
+                    <img 
+                        src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" 
+                    alt="">
+                <p id="link">
+                    Postman Report
+                </p>
+            </a>
+            </div>
+            <div class="sdiv ">
+                <a 
+                href="./rest assured/github_restassord/test-output/ExtentReports.html">
+                    <img 
+                        src="https://cdn.springpeople.com/media/Rest%20Assured.png" 
+                    alt="">
+                <p id="link">
+                    Rest-Assured Report
+                </p>
+            </div>
+        </div>
+        </div>
+
+</body>
+</html>

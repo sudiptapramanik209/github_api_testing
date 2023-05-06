@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T11:33:58 IST" name="Suite" finished-at="2023-05-06T11:34:25 IST" duration-ms="27818">
+    <groups>
+    </groups>
+    <test started-at="2023-05-06T11:33:58 IST" name="Test" finished-at="2023-05-06T11:34:25 IST" duration-ms="27818">
+      <class name="github_restassord.github_api">
+        <test-method signature="CREATE_A_REPOSITORY_FOR_A_AUTHENTICATED_USER()[pri:0, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:33:58 IST" name="CREATE_A_REPOSITORY_FOR_A_AUTHENTICATED_USER" finished-at="2023-05-06T11:34:05 IST" duration-ms="7559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CREATE_A_REPOSITORY_FOR_A_AUTHENTICATED_USER -->
+        <test-method signature="UPDATE_A_REPOSITORY()[pri:1, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:05 IST" name="UPDATE_A_REPOSITORY" finished-at="2023-05-06T11:34:06 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UPDATE_A_REPOSITORY -->
+        <test-method signature="GET_A_REPOSITORY()[pri:2, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:06 IST" name="GET_A_REPOSITORY" finished-at="2023-05-06T11:34:07 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_A_REPOSITORY -->
+        <test-method signature="CREATE_FILE_CONTENT()[pri:3, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:07 IST" name="CREATE_FILE_CONTENT" finished-at="2023-05-06T11:34:08 IST" duration-ms="778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CREATE_FILE_CONTENT -->
+        <test-method signature="CREATE_A_FORK()[pri:4, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:08 IST" name="CREATE_A_FORK" finished-at="2023-05-06T11:34:14 IST" duration-ms="6272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CREATE_A_FORK -->
+        <test-method signature="LIST_FORK()[pri:5, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:14 IST" name="LIST_FORK" finished-at="2023-05-06T11:34:15 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIST_FORK -->
+        <test-method signature="LIST_REPOSITORIES_FOR_A_USER()[pri:6, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:15 IST" name="LIST_REPOSITORIES_FOR_A_USER" finished-at="2023-05-06T11:34:16 IST" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIST_REPOSITORIES_FOR_A_USER -->
+        <test-method signature="LIST_REPOSITORY_LANGUAGE()[pri:7, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:16 IST" name="LIST_REPOSITORY_LANGUAGE" finished-at="2023-05-06T11:34:16 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIST_REPOSITORY_LANGUAGE -->
+        <test-method signature="LIST_PUBLIC_REPOSITORIES()[pri:8, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:16 IST" name="LIST_PUBLIC_REPOSITORIES" finished-at="2023-05-06T11:34:17 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIST_PUBLIC_REPOSITORIES -->
+        <test-method signature="CREATE_A_RELEASE()[pri:9, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:17 IST" name="CREATE_A_RELEASE" finished-at="2023-05-06T11:34:18 IST" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CREATE_A_RELEASE -->
+        <test-method signature="LIST_REPOSITORY_TAGS()[pri:10, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:18 IST" name="LIST_REPOSITORY_TAGS" finished-at="2023-05-06T11:34:19 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LIST_REPOSITORY_TAGS -->
+        <test-method signature="CREATE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY()[pri:11, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:19 IST" name="CREATE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY" finished-at="2023-05-06T11:34:19 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CREATE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY -->
+        <test-method signature="GET_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY()[pri:12, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:19 IST" name="GET_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY" finished-at="2023-05-06T11:34:20 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY -->
+        <test-method signature="GET_A_REPOSITORY_AGAIN()[pri:13, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:20 IST" name="GET_A_REPOSITORY_AGAIN" finished-at="2023-05-06T11:34:20 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_A_REPOSITORY_AGAIN -->
+        <test-method signature="REPLACE_ALL_REPOSITORY_TOPICS()[pri:14, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:20 IST" name="REPLACE_ALL_REPOSITORY_TOPICS" finished-at="2023-05-06T11:34:21 IST" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- REPLACE_ALL_REPOSITORY_TOPICS -->
+        <test-method signature="GET_ALL_REPOSITORY_TOPICS()[pri:15, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:21 IST" name="GET_ALL_REPOSITORY_TOPICS" finished-at="2023-05-06T11:34:22 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GET_ALL_REPOSITORY_TOPICS -->
+        <test-method signature="DELETE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY()[pri:17, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:22 IST" name="DELETE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY" finished-at="2023-05-06T11:34:23 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_AN_AUTOLINK_REFERENCE_FOR_A_REPOSITORY -->
+        <test-method signature="DELETE_FORK()[pri:18, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:23 IST" name="DELETE_FORK" finished-at="2023-05-06T11:34:23 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_FORK -->
+        <test-method signature="DELETE_A_FILE()[pri:19, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:23 IST" name="DELETE_A_FILE" finished-at="2023-05-06T11:34:25 IST" duration-ms="1408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_A_FILE -->
+        <test-method signature="DELETE_A_REPOSITORY()[pri:20, instance:github_restassord.github_api@6f204a1a]" started-at="2023-05-06T11:34:25 IST" name="DELETE_A_REPOSITORY" finished-at="2023-05-06T11:34:25 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DELETE_A_REPOSITORY -->
+      </class> <!-- github_restassord.github_api -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
